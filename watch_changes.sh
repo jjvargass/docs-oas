@@ -5,7 +5,7 @@
 cd docroot
 web_running=$(ps -fa|grep SimpleHTTPServer|grep -v grep)
 if [ -z "$web_running" ]; then
-     python -m SimpleHTTPServer 3000 &
+     python -m SimpleHTTPServer 5000 &
 fi
 cd ..
 pykwiki cache -f && cp src/* docroot/ -r
