@@ -13,7 +13,7 @@
     <style type="text/css">
     html, body { height: 100%; }
 
-    h1:target, h2:target, h3:target { 
+    h1:target, h2:target, h3:target {
         background-color: #dfd;
     }
 
@@ -24,6 +24,26 @@
         margin: 0 auto -60px;
         /* Pad bottom by footer height */
         padding: 0 0 60px;
+        background-color: lightgray;
+        z-index: -10;
+    }
+
+    #wrap > .container {
+        background-color: white;
+        padding-top: 60px;
+    }
+
+    .container img {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        border-style: solid;
+        border-color: gray;
+        border-width: 1px;
+        /* Centra las imágenes */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1024px;
     }
 
     #footer {
@@ -31,38 +51,37 @@
         padding-top: 20px;
         background: #eee;
     }
-    #footer .social-div { 
+    #footer .social-div {
         float: left;
         margin-left: 10px;
     }
 
     .link_section {
         padding: 3px;
-        margin: 0px; 
+        margin: 0px;
         font-weight: bold;
     }
 
-    .toc { 
-        float: right;
+    .toc {
         border: 2px solid #efefef;
         background: #f5f5f5;
         padding: 5px;
         border-radius: 3px;
         color: #999;
     }
-    .toc ul, .toc li, .toc ul li { 
+    .toc ul, .toc li, .toc ul li {
         margin-left: 10px;
         padding-left: 0px;
     }
 
-    .htmltruncate-lg, .htmltruncate-md, .htmltruncate-sm { 
+    .htmltruncate-lg, .htmltruncate-md, .htmltruncate-sm {
         overflow: hidden;
         position: relative;
         border-bottom: 2px dashed #eee;
         margin-bottom: 5px;
         min-height: 60px;
     }
-    .htmltruncate-bottom { 
+    .htmltruncate-bottom {
         position: absolute;
         bottom: 0px;
         left: 0px;
@@ -75,13 +94,22 @@
     .htmltruncate-lg {
         max-height: 500px;
     }
-    .htmltruncate-md { 
+    .htmltruncate-md {
         max-height: 300px;
     }
-    .htmltruncate-sm { 
+    .htmltruncate-sm {
         max-height: 150px;
     }
-    </style> 
+    h2, .h2 {
+        font-size: 24px;
+        background-color: lightgray;
+        padding: 0.3em;
+    }
+    h3, .h3 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    </style>
     <script>
     // Globals
     var has_gaq = false;
@@ -100,7 +128,7 @@
     (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript';
       ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
       'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0];
       s.parentNode.insertBefore(ga, s);
@@ -113,7 +141,7 @@
 
 {{ ctrl.theme_menu }}
 <div id="wrap">
-<div class="container" style="padding-top: 60px;">
+<div class="container">
 {% block content %}
 {% endblock %}
 </div>
@@ -126,7 +154,7 @@
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <script src="{{conf.web_prefix}}/static/respond.min.js"></script>
-<![endif]-->   
+<![endif]-->
 
 </body>
 </html>
