@@ -4,3 +4,7 @@
     href: /posts.html
 - Search:
     href: /search.html
+- MSPI:
+    children:
+      - Operación Por Procesos:
+          post: mspi/operacion_por_procesos/analisis_actividades.md

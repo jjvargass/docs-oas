@@ -1,12 +1,12 @@
 [[
-title: Documento de análisis de Actividades del Módulo Gestión por Procesos
+title: Documento de análisis de Actividades del Módulo Operación por Procesos
 author: José Javier Vargas Serrato
 ]]
 
 Análisis de Actividades
 =======================
 
-Gestión por Procesos
+Operación por Procesos
 ==========================
 
 [TOC]
@@ -58,3 +58,31 @@ Diagrama de actividades
 	end header
 
 {enduml}
+
+DESCRIPCIÓN DE LAS ACTIVIDADES DEL PROCESO
+------------------------------------------
+### Actividad 1: Registrar Procesos.
+
+En esta actividad el administrador realiza el registro de los procesos definidos en la organización, para proporcionar en el sistema el atributo de gestión por procesos en los módulos que lo requieran y así caracterizar la operación de los sistemas con el atributo de processos
+
+### Actividad 2: Asociar Actividades al Proceso.
+
+En esta actividad se caracteriza el procesos, que es definir las actividades que le corresponde al procesos para cumplir con sus objetivos.
+
+
+### Actividad 3: Registrar mensualmente los avances por actividad.
+
+En esta actividad se detalla cada una de las actividades del proceso; con el registro de sus entradas y salidas; que hace parte de la transformación de insumos en productos de dicho proceso.
+
+ENTORNO Y RESTRICCIONES
+-----------------------
+
+Aquellos elementos externos al proceso, que se consideran dados, pero no obstante afectan su comportamiento.
+
+### Elementos del Entorno
+
+- La consolidación y estructuración del proceso de la organización es propia del área de planeación que luego es difundida en el portal web; esta es la fuente que se tomó para consolidar la información en el sistema.
+
+### Restricciones
+
+- Se encuentra en algunos procesos como área líder el consejo superior, que no es definido como un área de la organización, pero para el sistema si, de esta forma se logra incluir y caracterizar el proceso.
