@@ -104,7 +104,7 @@ En esta actividad el ejecutor y/o el jefe del área realiza el registro de un av
 * Tarea 4.5: Calificación del avances por parte del ente de control. 
   
 
-### Actividad 5: Generar reportes e informes de los planes de mejoramiento.
+### Actividad 5: Generar Reportes e Informes de los Planes de Mejoramiento.
 
 * Tarea 5.1: Generar reporte de Plan de Mejoramiento Seleccionado.
 
