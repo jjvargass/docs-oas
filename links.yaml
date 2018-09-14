@@ -1,10 +1,26 @@
 - Welcome:
     post: index
-- Posts:
-    href: /posts.html
-- Search:
-    href: /search.html
 - MSPI:
     children:
-      - Operación Por Procesos:
-          post: mspi/operacion_por_procesos/analisis_actividades.md
+    - Operación Por Procesos:
+        children:
+        - Introducción:
+            post: mspi/operacion_por_procesos/analisis_actividades.md
+        - Manuales:
+            post: mspi/operacion_por_procesos/analisis_actividades.md
+        - Desarrollo:
+            post: mspi/operacion_por_procesos/analisis_actividades.md
+        - Soporte:
+            post: mspi/operacion_por_procesos/analisis_actividades.md
+- MECI:
+    children:
+    - Planes de Mejoramiento:
+        children:
+        - Introducción:
+            post: planes_de_mejoramiento/analisis_actividades.md
+        - Manuales:
+            post: mspi/operacion_por_procesos/analisis_actividades.md
+        - Desarrollo:
+            post: mspi/operacion_por_procesos/analisis_actividades.md
+        - Soporte:
+            post: mspi/operacion_por_procesos/analisis_actividades.md

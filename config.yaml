@@ -22,7 +22,7 @@ site:
   keywords: example, pykwiki
   title: Example Site
 source_ext: .md
-theme: default
+theme: oas
 time_format: '%H:%M:%S'
 timestamp_format: '%Y-%m-%d %H:%M'
 web_prefix: ''
