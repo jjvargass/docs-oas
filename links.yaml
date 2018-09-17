@@ -9,7 +9,11 @@
         - Manuales:
             post: mspi/operacion_por_procesos/analisis_actividades.md
         - Desarrollo:
-            post: mspi/operacion_por_procesos/analisis_actividades.md
+            children:
+            - Especificación de Requerimientos:
+                post: mspi/operacion_por_procesos/analisis_actividades.md
+            - Diseño de Alto Nivel:
+                post: mspi/operacion_por_procesos/analisis_actividades.md
         - Soporte:
             post: mspi/operacion_por_procesos/analisis_actividades.md
 - MECI:
@@ -21,6 +25,10 @@
         - Manuales:
             post: mspi/operacion_por_procesos/analisis_actividades.md
         - Desarrollo:
-            post: mspi/operacion_por_procesos/analisis_actividades.md
+            children:
+            - Especificación de Requerimientos:
+                post: planes_de_mejoramiento/especificacion_requerimientos.md
+            - Diseño de Alto Nivel:
+                post: mspi/operacion_por_procesos/analisis_actividades.md
         - Soporte:
             post: mspi/operacion_por_procesos/analisis_actividades.md
