@@ -1,23 +1,26 @@
 [[
 title: Welcome
-author: PyKwiki
-description: The default PyKwiki startup page.
-tags: [pykwiki]
+author: OAS
+description: Documentación Desarrollo OAS.
+tags: [OAS]
 ]]
 
-# Welcome!
+# Oficina Asesora de Sistemas (OAS)
 
-Thanks for installing PyKwiki!
-
-This page can be found in `source/index.md`.
-
-Where to go from here:
-
-* [Official Documentation](http://pykwiki.nullism.com/)
-* [PyKwiki - Authoring](http://pykwiki.nullism.com/authoring.html)
-* [PyKwiki - config.yaml](http://pykwiki.nullism.com/config.yaml.html)
-* [PyKwiki - links.yaml](http://pykwiki.nullism.com/links.yaml.html)
-
-Report issues at [GitHub - PyKwiki](https://github.com/nullism/pykwiki)
+En este sitio encontrala la documentación de desarrollo de los diferentes módulos construidos por la OAS.
 
 
+MSPI
+------------------------------------------
+* [Gestión Por Procesos](http://pykwiki.nullism.com/)
+* [Gestión de Activos de Información](http://pykwiki.nullism.com/)
+* [Gestión de Riesgos](http://pykwiki.nullism.com/)
+
+SISIFO
+------------------------------------------
+* [Planes de Mejoramiento](planes_de_mejoramiento/analisis_actividades.html)
+
+
+Plantillas
+------------------------------------------
+* Descarga las [Plantillas .Word](/data_download/plantillas_word.zip) 

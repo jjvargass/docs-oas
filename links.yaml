@@ -16,19 +16,39 @@
                 post: mspi/operacion_por_procesos/analisis_actividades.md
         - Soporte:
             post: mspi/operacion_por_procesos/analisis_actividades.md
-- MECI:
+- SISIFO:
     children:
     - Planes de Mejoramiento:
         children:
         - Introducción:
-            post: planes_de_mejoramiento/analisis_actividades.md
+            post: planes_de_mejoramiento/desarrollo/analisis_actividades.md
         - Manuales:
-            post: mspi/operacion_por_procesos/analisis_actividades.md
+            children:
+            - Aplicativo:
+                children:
+                - Auditor:
+                    post: planes_de_mejoramiento/manuales/usuario_auditor.md
+                - Jefe-Dependencia:
+                    post: planes_de_mejoramiento/manuales/usuario_jefed.md
+                - Ejecutor:
+                    post: planes_de_mejoramiento/manuales/usuario_ejecutor.md
+                - Analista:
+                    post: planes_de_mejoramiento/manuales/usuario_analista.md
+            - Soporte:
+                children:
+                - Administrador:
+                    post: planes_de_mejoramiento/soporte/usuario_administrador.md
+                - Super Administrador:
+                    post: planes_de_mejoramiento/soporte/usuario_soporte.md
+                - Herramientas de Usabilidad:
+                    post: planes_de_mejoramiento/soporte/guia_herramientas_usabilidad.md
         - Desarrollo:
             children:
             - Especificación de Requerimientos:
-                post: planes_de_mejoramiento/especificacion_requerimientos.md
+                post: planes_de_mejoramiento/desarrollo/especificacion_requerimientos.md
             - Diseño de Alto Nivel:
                 post: mspi/operacion_por_procesos/analisis_actividades.md
         - Soporte:
-            post: mspi/operacion_por_procesos/analisis_actividades.md
+            children:
+            - Cargue Masivo:
+                post: planes_de_mejoramiento/soporte/cargue_bogota.md
