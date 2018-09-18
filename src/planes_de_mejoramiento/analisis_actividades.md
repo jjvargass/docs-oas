@@ -11,7 +11,7 @@ Registro y Seguimiento De los Planes de Mejoramiento
 
 [TOC]
 
-Introducción
+INTRODUCCIÓN
 ------------
 
 La formulación de los planes de mejoramiento es el instrumento para desarrollar acciones que permitan el mejoramiento continuo en los procesos del instituto, a través de metas específicas. Las acciones que sean formuladas deben estar orientadas a prevenir, detectar y corregir los hallazgos detectados por el ente de control interno y los entes de control externo y tambien definidas por cada una de las áreas de la organización como parte de la propuesta de mejora.
@@ -23,12 +23,12 @@ La formulación de los planes de mejoramiento es el instrumento para desarrollar
 
 Al finalizar la ejecución de cada Plan de Mejoramiento, la Oficina de Control Interno realizará una evaluación de la efectividad de las acciones formuladas con el fin de determinar el cierre de los hallazgos y acciones asociadas. Esta actividad se realizará mínimo una vez al año, conforme a la programación que establezca la Oficina de Control Interno.
 
-Definición del proceso
+DEFINICIÓN DE LA TRANSFORMACIÓN DE LA INFORMACIÓN (PROCESOS DEL SISTEMA)
 ----------------------
 
 Se desea un sistema de registro de los hallazgos, acciones, avances, tareas y demás atributos que conforman el Plan de Mejoramiento definido por la Entidad, para el acompañamiento, seguimiento, evaluación y monitoreo de dichos planes; que sirva como herramienta centralizada de los soportes diguitales, mecanismos de control, alertas tempranas, observaciones y recomendaciones que facilitar y garantizar la efectividad en su cumplimiento.
 
-Entidades Identificadas (Responsables y tareas)
+ENTIDADES IDENTIFICADAS (RESPONSABLES Y TAREAS)
 -----------------------------------------------
 
 Son las entidades que interactúan con el proceso o forman parte del mismo.
@@ -51,7 +51,7 @@ Hacer recomendaciones al plan de mejoramiento teniendo en cuenta el seguimiento 
 ### Dirección General – DG (Propietario)
 Responsable del plan de mejoramiento con los organismos de control en su conjunto. Su rol es de seguimiento y apoyo especial a aquellas actividades complejas y/o que requieran de la participación de otras entidades. Se relacionan con el sistema mediante la generación de reportes y consulta de los registros de las áreas responsables, corresponsables, la OAP y la OCI.
 
-Diagrama de actividades
+DIAGRAMA DE ACTIVIDADES
 -----------------------
 {uml}
 
@@ -68,7 +68,7 @@ Diagrama de actividades
 
 {enduml}
 
-Descripción de las Actividades del proceso
+DESCRIPCIÓN DE LAS ACTIVIDADES DEL PROCESO
 ------------------------------------------
 ### Actividad 1: Registrar Plan de Mejoramiento.
 
@@ -118,7 +118,7 @@ En esta actividad el ejecutor y/o el jefe del área realiza el registro de un av
 * Tarea 7.1: Enviar correo electrónico del jefe del área del intervalo de tiempos para el registro de avances.
 
 
-Entorno y Restricciones
+ENTORNO Y RESTRICCIONES
 -----------------------
 
 Aquellos elementos externos al proceso, que se consideran dados, pero no obstante afectan su comportamiento.

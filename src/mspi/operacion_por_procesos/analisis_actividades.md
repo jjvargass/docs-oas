@@ -42,7 +42,7 @@ Son las entidades que interactúan con el proceso o forman parte del mismo.
 ### Oficina Asesora de Planeación y Control – OAPC (Propietario)
 Responsable del plan de mejoramiento con los organismos de control en su conjunto. Su rol es de seguimiento y apoyo especial a aquellas actividades complejas y/o que requieran de la participación de otras entidades. Se relacionan con el sistema mediante la generación de reportes y consulta de los registros de las áreas responsables, corresponsables, la OAP y la OCI.
 
-Diagrama de actividades
+DIAGRAMA DE ACTIVIDADES
 -----------------------
 {uml}
 
