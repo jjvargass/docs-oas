@@ -47,7 +47,7 @@
             - Especificación de Requerimientos:
                 post: planes_de_mejoramiento/desarrollo/especificacion_requerimientos.md
             - Diseño de Alto Nivel:
-                post: mspi/operacion_por_procesos/analisis_actividades.md
+                post: planes_de_mejoramiento/desarrollo/diseno_alto_nivel.md
         - Soporte:
             children:
             - Cargue Masivo:
