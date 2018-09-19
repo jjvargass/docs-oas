@@ -23,4 +23,4 @@ SISIFO
 
 Plantillas
 ------------------------------------------
-* Descarga las [Plantillas .Word](/data_download/plantillas_word.zip) 
+* Descarga las [Plantillas .Word](data_download/plantillas_word.zip)
