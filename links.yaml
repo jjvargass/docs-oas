@@ -5,17 +5,17 @@
     - Operación Por Procesos:
         children:
         - Introducción:
-            post: mspi/operacion_por_procesos/analisis_actividades.md
+            post: mspi/operacion_por_procesos/desarrollo/analisis_actividades.md
         - Manuales:
-            post: mspi/operacion_por_procesos/analisis_actividades.md
+            post: mspi/operacion_por_procesos/desarrollo/analisis_actividades.md
         - Desarrollo:
             children:
             - Especificación de Requerimientos:
-                post: mspi/operacion_por_procesos/analisis_actividades.md
+                post: mspi/operacion_por_procesos/desarrollo/especificacion_requerimientos.md
             - Diseño de Alto Nivel:
-                post: mspi/operacion_por_procesos/analisis_actividades.md
+                post: mspi/operacion_por_procesos/desarrollo/diseno_alto_nivel.md
         - Soporte:
-            post: mspi/operacion_por_procesos/analisis_actividades.md
+            post: mspi/operacion_por_procesos/desarrollo/analisis_actividades.md
 - SISIFO:
     children:
     - Planes de Mejoramiento:
