@@ -19,6 +19,7 @@ DIAGRAMA DE CLASES DE ALTO NIVEL
     plan_mejoramiento.plan --|> project.project: Delegation[project_id]
     plan_mejoramiento.plan "1" --> "*" plan_mejoramiento.hallazgo
     plan_mejoramiento.hallazgo "1" --> "*" plan_mejoramiento.accion
+    mapa_proceso.proceso "1" --> "*" plan_mejoramiento.hallazgo
     plan_mejoramiento.accion "1" --> "*" plan_mejoramiento.avance
     plan_mejoramiento.avance "*" --> "1" plan_mejoramiento.tipo_calificacion
     plan_mejoramiento.accion "1" -- "*" project.task
@@ -54,8 +55,8 @@ MODELO DE MÁQUINA DE ESTADOS
 
 - **Por_Aprobar**
     - **Descripción:** Estado que indica que la acción ha sido creada y esta a la espera de la aprobación por el usuario auditor.
-    - **Acción a ejecutar en el sistema:** El campo state cambia al valor por_aprobar. Se notifica al usuario auditor que se le ha creado una nueva acción para su debida revisión. 
-  
+    - **Acción a ejecutar en el sistema:** El campo state cambia al valor por_aprobar. Se notifica al usuario auditor que se le ha creado una nueva acción para su debida revisión.
+
 - **En_Progreso**
     - **Descripción:** Estado que indica que la acción fue aprobada por el auditor y puede ser alimentada con sus respectivos avances.
     - **Acción a ejecutar en el sistema:**El campo state cambia al valor en_progreso.
