@@ -26,7 +26,7 @@ Al finalizar la ejecución de cada Plan de Mejoramiento, la Oficina de Control I
 DEFINICIÓN DE LA TRANSFORMACIÓN DE LA INFORMACIÓN (PROCESOS DEL SISTEMA)
 ----------------------
 
-Se desea un sistema de registro de los hallazgos, acciones, avances, tareas y demás atributos que conforman el Plan de Mejoramiento definido por la Entidad, para el acompañamiento, seguimiento, evaluación y monitoreo de dichos planes; que sirva como herramienta centralizada de los soportes diguitales, mecanismos de control, alertas tempranas, observaciones y recomendaciones que facilitar y garantizar la efectividad en su cumplimiento.
+Se desea un sistema de registro de los hallazgos, acciones, avances, tareas y demás atributos que conforman el Plan de Mejoramiento definido por la Entidad, para el acompañamiento, seguimiento, evaluación y monitoreo de dichos planes; que sirva como herramienta centralizada de los soportes digitales, mecanismos de control, alertas tempranas, observaciones y recomendaciones que facilitar y garantizar la efectividad en su cumplimiento.
 
 ENTIDADES IDENTIFICADAS (RESPONSABLES Y TAREAS)
 -----------------------------------------------
@@ -62,36 +62,32 @@ DIAGRAMA DE ACTIVIDADES
 	--> "Registrar Acciones"
 	--> "Registrar Avances"
 	--> (*)
-	header
-	Designed by jjvargass
-	end header
-
 {enduml}
 
 DESCRIPCIÓN DE LAS ACTIVIDADES DEL PROCESO
 ------------------------------------------
 ### Actividad 1: Registrar Plan de Mejoramiento.
 
-En esta actividad el auditor realiza el registro  del plan de mejoramiento interno o externo “Contraloría General o Contraloría Distrital” y lo caracterizará con los atributos de fecha, radicado, y demás atributos. 
+En esta actividad el auditor realiza el registro  del plan de mejoramiento interno o externo “Contraloría General o Contraloría Distrital” y lo caracterizará con los atributos de fecha, radicado, y demás atributos.
 
 
 ### Actividad 2: Registrar Hallazgos.
 
-En esta actividad el auditor realiza el registro  de los hallazgos pertenecientes a un plan de mejoramiento. los hallazgos serán caracterizados por el procesos al que pertenecen y detallando específicamente a que área "ya sea líder o de apoyo" le corresponde dicho hallazgo. 
+En esta actividad el auditor realiza el registro  de los hallazgos pertenecientes a un plan de mejoramiento. los hallazgos serán caracterizados por el procesos al que pertenecen y detallando específicamente a que área "ya sea líder o de apoyo" le corresponde dicho hallazgo.
 
 * Tarea 2.1: Seleccionar el proceso involucrado.
-* Tarea 2.2: Seleccionar áreas líderes o de apoyo que pertenezcan al proceso. 
-* Tarea 2.3: Informar el área asignada al hallazgo por medio de un correo electrónico. 
+* Tarea 2.2: Seleccionar áreas líderes o de apoyo que pertenezcan al proceso.
+* Tarea 2.3: Informar el área asignada al hallazgo por medio de un correo electrónico.
 
 
 ### Actividad 3: Registrar Acciones.
 
-En esta actividad el ejecutor y/o el jefe del área realiza el registro  de las acciones pertenecientes a un hallazgo. Está actividad definira las acciones por cada área para solventar el hallazgo definido por el ente de control. 
+En esta actividad el ejecutor y/o el jefe del área realiza el registro  de las acciones pertenecientes a un hallazgo. Está actividad definira las acciones por cada área para solventar el hallazgo definido por el ente de control.
 
-* Tarea 3.1: Permitir aprobar y desaprobar la acción. 
+* Tarea 3.1: Permitir aprobar y desaprobar la acción.
 * Tarea 3.2: Notificación la acción por aprobar al ente de control.
 * Tarea 3.3: Notificación la acción aprobada al área que creó la acción.
-* Tarea 3.4: Permitir vincular Tareas a otras áreas para el cumplimiento de la acción. 
+* Tarea 3.4: Permitir vincular Tareas a otras áreas para el cumplimiento de la acción.
 
 ### Actividad 4: Registrar Avances.
 
@@ -100,9 +96,9 @@ En esta actividad el ejecutor y/o el jefe del área realiza el registro de un av
 * Tarea 4.1: Permitir registrar un avances por mes.
 * Tarea 4.2: Permitir registrar el avance en el periodo establecido por el auditor.
 * Tarea 4.3: Dar visto bueno o aprobación del avance  por el jefe del área.
-* Tarea 4.4: Permitir realizar observaciones por usuarios asesores. 
-* Tarea 4.5: Calificación del avances por parte del ente de control. 
-  
+* Tarea 4.4: Permitir realizar observaciones por usuarios asesores.
+* Tarea 4.5: Calificación del avances por parte del ente de control.
+
 
 ### Actividad 5: Generar Reportes e Informes de los Planes de Mejoramiento.
 
