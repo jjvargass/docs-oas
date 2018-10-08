@@ -82,11 +82,11 @@ En esta actividad se realiza el ingreso de los datos básicos para consolidar el
     - [1] **Seleccionar Tipo del Procerso**: El sistema debe permitir seleccionar Tipo de proceso [Estratégico, Misional, Apoyo, Control]
 
 ### Registrar Actividad
-Durante esta actividad se realiza el ingreso de datos para el registro de un actividades asosiado a un procesos.
+Durante esta actividad se realiza el ingreso de datos para el registro de un actividades asociado a un proceso.
 
 #### Historias de Usuario
 
-- HUOP-02: Como **administrador_modulo** quiero registrar una actividad o muchas para caracterizar el procesos.
+- HUOP-02: Como **administrador_modulo** quiero registrar una actividad o muchas para caracterizar el proceso.
 
     - [1] **Seleccionar Ciclo de la Actividad**: El sistema debe permitir seleccionar ciclo [Planar, Hacer, Verificar, Actuar]
 
