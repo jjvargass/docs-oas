@@ -249,7 +249,7 @@ En esta actividad los usuarios **auditor** aceptan o rechazan el registro de acc
     - [2] **Notificar Aceptación y Rechazo de Acciones**: El sistema debe notificar al usuario **responsable** del rechazo de la acción por el auditor.
 
 
-### Actuaizar Acción
+### Actualizar Acción
 En esta actividad los usuarios **responsables** actualizan la acción acorde a las observaciones dejadas por el auditor.
 
 #### Historias de Usuario
