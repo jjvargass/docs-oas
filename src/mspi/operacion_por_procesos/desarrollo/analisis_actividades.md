@@ -16,8 +16,7 @@ INTRODUCCIÓN
 
 El modelo de operación por procesos es el estándar
 organizacional que soporta la operación de la
-entidad pública, integrando las competencias consti-
-tucionales y legales que la rigen con el conjunto de
+entidad pública, integrando las competencias constitucionales y legales que la rigen con el conjunto de
 planes y programas necesarios para el cumplimiento
 de su misión, visión y objetivos institucionales.
 Pretende determinar la mejor y más eficiente forma
@@ -53,10 +52,6 @@ DIAGRAMA DE ACTIVIDADES
 	--> "Asociar Actividades al Proceso"
 	--> "Asociar Entradas y Salidas a las Actividades"
 	--> (*)
-	header
-	Designed by jjvargass
-	end header
-
 {enduml}
 
 DESCRIPCIÓN DE LAS ACTIVIDADES DEL PROCESO
@@ -67,7 +62,7 @@ En esta actividad el administrador realiza el registro de los procesos definidos
 
 ### Actividad 2: Asociar Actividades al Proceso.
 
-En esta actividad se caracteriza el procesos, que es definir las actividades que le corresponde al procesos para cumplir con sus objetivos.
+En esta actividad se caracteriza el procesos, que es definir las actividades que le corresponde al proceso para cumplir con sus objetivos.
 
 
 ### Actividad 3: Registrar mensualmente los avances por actividad.
