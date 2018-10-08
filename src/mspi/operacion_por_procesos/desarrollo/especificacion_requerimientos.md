@@ -66,19 +66,19 @@ DIAGRAMA DE ACTIVIDADES DEL SISTEMA
     :Registrar\nEntradas/Salidas;
     stop
     | |
-    
+
 
 {enduml}
 
 ## DESCRIPCIÓN DE LAS ACTIVIADES DEL SISTEMA
 
 ### Registrar Proceso
-En esta actividad se realiza el ingreso de los datos básicos para consolidar el registro del objeto proceso. El objeto proceso es la estructura padre del árbol que consolida la operación por procesos. El Proceos está constituido por uno o varios objetos actividades que tiene relacionados al uno o muchas entradas y salidas denominadas la caracterización del proceso; que representa la entrada de insumos, el troceso las transforma y salen como productos o insumos a otros procesos.
+En esta actividad se realiza el ingreso de los datos básicos para consolidar el registro del objeto proceso. El objeto proceso es la estructura padre del árbol que consolida la operación por procesos. El Proceso está constituido por uno o varios objetos actividades que tiene relacionados al uno o muchas entradas y salidas denominadas la caracterización del proceso; que representa la entrada de insumos, el troceso las transforma y salen como productos o insumos a otros procesos.
 
 #### Historias de Usuario
 
-- HUOP-01: Como **administrador_modulo** quiero registrar un procesos para parametrizar el sistema de procesos. 
-  
+- HUOP-01: Como **administrador_modulo** quiero registrar un procesos para parametrizar el sistema de la operación por proceso.
+
     - [1] **Seleccionar Tipo del Procerso**: El sistema debe permitir seleccionar Tipo de proceso [Estratégico, Misional, Apoyo, Control]
 
 ### Registrar Actividad
@@ -86,7 +86,7 @@ Durante esta actividad se realiza el ingreso de datos para el registro de un act
 
 #### Historias de Usuario
 
-- HUOP-02: Como **administrador_modulo** quiero registrar una actividad o muchas para caracterizar el procesos. 
+- HUOP-02: Como **administrador_modulo** quiero registrar una actividad o muchas para caracterizar el procesos.
 
     - [1] **Seleccionar Ciclo de la Actividad**: El sistema debe permitir seleccionar ciclo [Planar, Hacer, Verificar, Actuar]
 
@@ -98,6 +98,6 @@ Durante esta actividad se realiza el ingreso de datos de los objetos Entradas y 
 - HUOP-03: Como **administrador_modulo** quiero registrar actividades que definirán la solución a los hallazgos del plan de mejoramiento.
 
     - [1] **Registrar Entrada Interna**: El sistema debe permitir diligenciar el campo Procesos:
-    - [1] **Registrar Entrada Externa**: El sistema debe permitir diligenciar el campo Proveedor: 
-    - [1] **Registrar Salida Interna**: El sistema debe permitir diligenciar el campo Procesos: 
-    - [1] **Registrar Salida Externa**: El sistema debe permitir diligenciar el campos Cliente/Usuario: 
+    - [1] **Registrar Entrada Externa**: El sistema debe permitir diligenciar el campo Proveedor:
+    - [1] **Registrar Salida Interna**: El sistema debe permitir diligenciar el campo Procesos:
+    - [1] **Registrar Salida Externa**: El sistema debe permitir diligenciar el campos Cliente/Usuario:
