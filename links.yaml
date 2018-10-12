@@ -16,6 +16,20 @@
                 post: mspi/operacion_por_procesos/desarrollo/diseno_alto_nivel.md
         - Soporte:
             post: mspi/operacion_por_procesos/desarrollo/analisis_actividades.md
+    - Gestión Activos de Información:
+        children:
+        - Introducción:
+            post: mspi/activo_informacion/desarrollo/analisis_actividades.md
+        - Manuales:
+            post: mspi/activo_informacion/desarrollo/analisis_actividades.md
+        - Desarrollo:
+            children:
+            - Especificación de Requerimientos:
+                post: mspi/activo_informacion/desarrollo/especificacion_requerimientos.md
+            - Diseño de Alto Nivel:
+                post: mspi/activo_informacion/desarrollo/diseno_alto_nivel.md
+        - Soporte:
+            post: mspi/activo_informacion/desarrollo/analisis_actividades.md
 - SISIFO:
     children:
     - Planes de Mejoramiento:

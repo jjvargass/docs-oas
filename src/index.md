@@ -12,13 +12,13 @@ En este sitio encontrala la documentación de desarrollo de los diferentes módu
 
 MSPI
 ------------------------------------------
-* [Gestión Por Procesos](http://pykwiki.nullism.com/)
+* [Gestión Por Procesos](mspi/operacion_por_procesos/desarrollo/analisis_actividades.html)
 * [Gestión de Activos de Información](http://pykwiki.nullism.com/)
 * [Gestión de Riesgos](http://pykwiki.nullism.com/)
 
 SISIFO
 ------------------------------------------
-* [Planes de Mejoramiento](planes_de_mejoramiento/analisis_actividades.html)
+* [Planes de Mejoramiento](planes_de_mejoramiento/desarrollo/analisis_actividades.html)
 
 
 Plantillas
