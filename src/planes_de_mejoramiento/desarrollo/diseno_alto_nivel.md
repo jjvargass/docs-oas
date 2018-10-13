@@ -15,14 +15,14 @@ DIAGRAMA DE CLASES DE ALTO NIVEL
 
 {uml}
 
-    hr.department "1" --> "*" plan_mejoramiento.plan: dependencia_id
+    hr.department "1" --* "*" plan_mejoramiento.plan: dependencia_id
     plan_mejoramiento.plan --|> project.project: Delegation[project_id]
-    plan_mejoramiento.plan "1" --> "*" plan_mejoramiento.hallazgo
-    plan_mejoramiento.hallazgo "1" --> "*" plan_mejoramiento.accion
-    mapa_proceso.proceso "1" --> "*" plan_mejoramiento.hallazgo
-    plan_mejoramiento.accion "1" --> "*" plan_mejoramiento.avance
-    plan_mejoramiento.avance "*" --> "1" plan_mejoramiento.tipo_calificacion
-    plan_mejoramiento.accion "1" -- "*" project.task
+    plan_mejoramiento.plan "1" --* "*" plan_mejoramiento.hallazgo
+    plan_mejoramiento.hallazgo "1" --* "*" plan_mejoramiento.accion
+    mapa_proceso.proceso "1" --* "*" plan_mejoramiento.hallazgo
+    plan_mejoramiento.accion "1" --* "*" plan_mejoramiento.avance
+    plan_mejoramiento.avance "*" --* "1" plan_mejoramiento.tipo_calificacion
+    plan_mejoramiento.accion "1" --* "*" project.task
     plan_mejoramiento.hallazgo --|> project.wbs: Delegation[wbs_root_id]
     plan_mejoramiento.accion --|> project.wbs: Delegation[wbs_root_id]
     project.project "*" -- "1" project.wbs

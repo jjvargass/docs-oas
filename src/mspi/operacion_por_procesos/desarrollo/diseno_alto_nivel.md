@@ -15,10 +15,10 @@ DIAGRAMA DE CLASES DE ALTO NIVEL
 
 {uml}
 
-    hr.department "*" --> "*" mapa_proceso.proceso
-    mapa_proceso.proceso "1"--> "*" mapa_proceso.actividad
-    mapa_proceso.actividad "1"--> "*" mapa_proceso.entrada
-    mapa_proceso.actividad "1"--> "*" mapa_proceso.salida
+    hr.department "*" --* "*" mapa_proceso.proceso
+    mapa_proceso.proceso "1"--* "*" mapa_proceso.actividad
+    mapa_proceso.actividad "1"--* "*" mapa_proceso.entrada
+    mapa_proceso.actividad "1"--* "*" mapa_proceso.salida
 
 {enduml}
 
