@@ -21,7 +21,7 @@ DIAGRAMA DE CLASES DE ALTO NIVEL
     plan_mejoramiento.hallazgo "1" --* "*" plan_mejoramiento.accion
     mapa_proceso.proceso "1" --* "*" plan_mejoramiento.hallazgo
     plan_mejoramiento.accion "1" --* "*" plan_mejoramiento.avance
-    plan_mejoramiento.avance "*" --* "1" plan_mejoramiento.tipo_calificacion
+    plan_mejoramiento.avance "*" *-- "1" plan_mejoramiento.tipo_calificacion
     plan_mejoramiento.accion "1" --* "*" project.task
     plan_mejoramiento.hallazgo --|> project.wbs: Delegation[wbs_root_id]
     plan_mejoramiento.accion --|> project.wbs: Delegation[wbs_root_id]
