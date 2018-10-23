@@ -41,7 +41,7 @@
             - Especificación de Requerimientos:
                 post: mspi/gestion_riesgos/desarrollo/especificacion_requerimientos.md
             - Diseño de Alto Nivel:
-                post: mspi/activo_informacion/desarrollo/diseno_alto_nivel.md
+                post: mspi/gestion_riesgos/desarrollo/diseno_alto_nivel.md
         - Soporte:
             post: mspi/activo_informacion/desarrollo/analisis_actividades.md
 
