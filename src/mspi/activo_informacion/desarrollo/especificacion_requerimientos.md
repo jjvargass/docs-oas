@@ -86,7 +86,7 @@ A continuación se listan y describen los actores principales del sistema, estos
 	skinparam packageStyle rect
 	actor analista
 
-	rectangle "Consulta y Generación de Reportes" {
+	rectangle "Consultar Supervisar\ny Generar Reportes" {
 	 analista -- (Generar reporte de inventario)
 	 analista -- (Consulta de activos de información)
 

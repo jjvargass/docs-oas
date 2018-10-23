@@ -37,7 +37,7 @@ ENTIDADES IDENTIFICADAS (RESPONSABLES Y TAREAS)
 Son las entidades que interactúan con el proceso o forman parte del mismo.
 
 ### Áreas Lideres (Cliente)
-Áreas a las que le corresponde liderar la ejecución de los objetivos del procesos de la organización.
+Áreas a las que le corresponde liderar la ejecución de los objetivos del proceso de la organización.
 
 ### Áreas Gestoras (Cliente)
 Áreas de apoyo en la ejecución de los objetivos del proceso de la organización.
@@ -46,7 +46,7 @@ Son las entidades que interactúan con el proceso o forman parte del mismo.
 Cada uno de los funcionarios de las distintas áreas de la entidad. Se relaciona con el sistema mediante el registro del activo de información que tiene a su cargo o responsabilidad.
 
 ### Líder del proceso - jefe del area(Actor)
-Es el propietario de los activos de información del proceso a su cargo. los lideres del procesos son una o varias areas de la entidad y se establecera como propietario el jefe de dicha área.
+Es el propietario de los activos de información del proceso a su cargo. Los líderes del proceso son una o varias áreas de la entidad y se establecerá como propietario el jefe de dicha área.
 
 ### Gestor (Actor)
 Es uno o varios funcionarios del proceso que colaboran con la gestión del inventario de activos de información del proceso.
@@ -83,15 +83,15 @@ DESCRIPCIÓN DE LAS ACTIVIDADES DEL PROCESO
 ------------------------------------------
 ### Actividad 1: Registrar Activos de Información.
 
-En esta actividad cada uno de los funcionarios de la entidad realizará el registro de activos de información a su cargo y asociado al procesos
+En esta actividad cada uno de los funcionarios de la entidad realizará el registro de activos de información a su cargo y asociado al proceso.
 
 ### Actividad 2: Aceptar o Rechazar Activo de Información
 
-En esta actividad los funcioanrias que pertenescan al equipo de gestión de activos realizarán la aceptación o rechazo del activo registrado.
+En esta actividad los funcioanrios que pertenezcan al equipo de gestión de activos realizarán la aceptación o rechazo del activo registrado.
 
-### Actividad 3: Consulta, supervisión  del Inentario
+### Actividad 3: Consulta, supervisión  del Iventario
 
-En esta actividad los funcioanrios encargados de la supervisión podrán consultar los activos aprobados y que conformarán el inventario de activos de información.
+En esta actividad los funcionarios encargados de la supervisión podrán consultar los activos aprobados y que conformarán el inventario de activos de información.
 
 ENTORNO Y RESTRICCIONES
 -----------------------
@@ -100,4 +100,4 @@ Aquellos elementos externos al proceso, que se consideran dados, pero no obstant
 
 ### Restricciones
 
-- La definición de los activos de información "conocimiento e información de gran valor para la organización "  esta dada por la politica de seguridad de la información establecida en la organización.
+- La definición de los activos de información "conocimiento e información de gran valor para la organización"  está dada por la política de seguridad de la información establecida en la organización.
