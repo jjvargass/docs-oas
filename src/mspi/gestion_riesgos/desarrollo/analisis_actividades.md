@@ -39,9 +39,13 @@ Son las entidades que interactúan con el proceso o forman parte del mismo.
 ### Funcionarios de las Áreas (Actor)
 Cada uno de los funcionarios de las distintas áreas de la entidad. Se relaciona con el sistema mediante el registro de riesgos que tiene a su cargo o responsabilidad por procesos.
 
-### Líder del proceso - jefe del area(Actor)
+### Áreas Lideres - Jefes del Área (Cliente)
+Áreas a las que le corresponde liderar la ejecución de los objetivos del procesos de la organización.
 Encargados de realizar las acciones asociadas a los controles establecidos para cada uno de los riesgos identificados para
 su proceso, de acuerdo con la periodicidad establecida en la política de administración del riesgo de la entidad.
+
+### Áreas Gestoras - Jefe del Área(Cliente)
+Áreas de apoyo en la ejecución de los objetivos del proceso de la organización.
 
 ### Gestor (Actor)
 Es uno o varios funcionarios del proceso que colaboran con la gestión "consulta, validación y verificación" de los registro de riesgos identificados al proceso.
@@ -53,29 +57,28 @@ DIAGRAMA DE ACTIVIDADES
 -----------------------
 {uml}
 
-	title Diagrama de actividades\n Gestión de Riesgos
-	skinparam backgroundColor #E7E3E3
-	(*) --> "Registrar\nRiesgo"
-	--> "Aceptar o rechazar\nriesgo por lider del proceso"
-	--> "Funcionarios analistas consultan,
-	supervisan la mitigación del riesgo"
-	--> (*)
+		title Diagrama de actividades\n Gestión de Riesgos
+		skinparam backgroundColor #E7E3E3
+		(*) --> "Registrar\nRiesgo"
+		--> "Aceptar o rechazar\nriesgo por Áreas Gestoras"
+		--> "Consulta, supervición\n y generación de reportes"
+		--> (*)
 
 {enduml}
 
 DESCRIPCIÓN DE LAS ACTIVIDADES DEL PROCESO
 ------------------------------------------
-### Actividad 1: Registrar Riesgos
+### Actividad 1: Registrar Riesgo
 
-En esta actividad cada uno de los funcionarios designados por los lideres de área de la entidad realizará el registro de reisgos asociado al procesos que apoyan o perteneciente
+En esta actividad cada uno de los funcionarios designados por los Jefes de áreas gestoras del proceso, realizará el registro de reisgos asociado al procesos que apoyan o perteneciente.
 
-### Actividad 2: Aceptar o Rechazar Activo de Información
+### Actividad 2: Aceptar o Rechazar Riesgo por Área Gestora.
 
-El lider del proyecto dara visto bueno aceptará o rechazará a la definición del riesgo.
+Cada uno de los jefes de las areas gestoras del proceso dan su aprobación del riesgo, cuando se cumpla todas las aprobaciones, el riesgo cambiara de estado.
 
-### Actividad 3: Consulta, supervisión  del Inentario
+### Actividad 3: Consulta, Supervisión y Generación de Reportes
 
-En esta actividad los funcioanrios encargados de la supervisión podrán consultar los activos aprobados y que conformarán el inventario de activos de información.
+En esta actividad los funcioanrios encargados de la supervisión podrán consultar los riesgos, hacer sus apropiaciones, generar repotes y supervisar la total normalidad del proceso.
 
 ENTORNO Y RESTRICCIONES
 -----------------------
