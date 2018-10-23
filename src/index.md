@@ -12,9 +12,9 @@ En este sitio encontrala la documentación de desarrollo de los diferentes módu
 
 MSPI
 ------------------------------------------
-* [Gestión Por Procesos](mspi/operacion_por_procesos/desarrollo/analisis_actividades.html)
-* [Gestión de Activos de Información](mspi/activo_informacion/desarrollo/analisis_actividades.html)
-* [Gestión de Riesgos](http://pykwiki.nullism.com/)
+* [Gestión Por Procesos](/mspi/operacion_por_procesos/desarrollo/analisis_actividades.html)
+* [Gestión de Activos de Información](/mspi/activo_informacion/desarrollo/analisis_actividades.html)
+* [Gestión de Riesgos](/mspi/gestion_riesgos/desarrollo/analisis_actividades.html)
 
 SISIFO
 ------------------------------------------
