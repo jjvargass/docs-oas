@@ -120,7 +120,7 @@ DIAGRAMA DE ACTIVIDADES DEL SISTEMA
 ## DESCRIPCIÓN DE LAS ACTIVIADES DEL SISTEMA
 
 ### Registrar Activos de Información
-En esta actividad se realiza el ingreso de los datos básicos para consolidar el registro del objeto activo de información conforme a la Guia 7 - Gestión  y Clasificación de Activos de Información del Modelo de seguridad y privacidad de la información (MSPI) propuestos por el Mintic.
+En esta actividad se realiza el ingreso de los datos básicos para consolidar el registro del objeto activo de información conforme a la Guia 5 - Gestión  y Clasificación de Activos de Información del Modelo de seguridad y privacidad de la información (MSPI) propuestos por el Mintic.
 
 #### Historias de Usuario
 
@@ -135,7 +135,7 @@ En esta actividad el usuario gestor aprueba o rechaza el activo de información 
 
 - HUOP-02: Como **gestor** quiero cambiar el estado de un activo de información para garantizar la calidad de los datos de este y confirmar el ingreos del activo al inventario.
 
-    - [1] **Revisión**: El sistema debe permitir cambiar el estado de  Definir a Revisión.[2] Notificar Cambio de - [2] **Estado**: El sistema debe notificar al registrador del cambio de estado del activo.
+    - [1] **Revisión**: El sistema debe permitir cambiar el estado de  Definir a Revisión.		- [2] Notificar Cambio de **Estado**: El sistema debe notificar al registrador del cambio de estado del activo.
 
 ### Consultar, Supervisar y Generar Reportes
 Durante esta actividad se realiza el ejercicio de solo consulta a los actios de información y poder genera los reportes de inventarios.
