@@ -67,32 +67,32 @@ MODELO DE MÁQUINA DE ESTADOS
 - **Definido a Revisado**
     - **Validación**:  No aplica.
     - **Grupo**: Registrador
-    - **Acción disparadora/trigger**: Acción manual a través de boton.
+    - **Acción disparadora/trigger**: Acción manual a través de botón.
 
 - **Revisado a Definido**
     - **Validación**: No aplica.
     - **Grupo**: Gestor
-    - **Acción disparadora/trigger**: Acción manual a través de boton.
+    - **Acción disparadora/trigger**: Acción manual a través de botón.
 
 - **Revisado a Publicado**
     - **Validación**: No aplica.
     - **Grupo**: Gestor
-    - **Acción disparadora/trigger**: Acción manual a través de boton.
+    - **Acción disparadora/trigger**: Acción manual a través de botón.
 
 - **Publicado a Actualizado**
     - **Validación**: No aplica.
     - **Grupo**: Gestor
-    - **Acción disparadora/trigger**: Acción manual a través de boton.
+    - **Acción disparadora/trigger**: Acción manual a través de botón.
 
 - **Actualizado a Publicado**
     - **Validación**: No aplica.
     - **Grupo**: Registrador
-    - **Acción disparadora/trigger**: Acción manual a través de boton.
+    - **Acción disparadora/trigger**: Acción manual a través de botón.
 
 - **Publicado a Cancelado**
     - **Validación**: No aplica.
     - **Grupo**: Gestor
-    - **Acción disparadora/trigger**: Acción manual a través de boton.
+    - **Acción disparadora/trigger**: Acción manual a través de botón.
 
 
 MODELO DE SEGURIDAD Y CONTROL DE ACCESO

@@ -54,7 +54,7 @@ MODELO DE MÁQUINA DE ESTADOS
     - **Acción a ejecutar en el sistema:**No aplica.
 
 - **Por_Aprobar**
-    - **Descripción:** Estado que indica que la acción ha sido creada y esta a la espera de la aprobación por el usuario auditor.
+    - **Descripción:** Estado que indica que la acción ha sido creada y está a la espera de la aprobación por el usuario auditor.
     - **Acción a ejecutar en el sistema:** El campo state cambia al valor por_aprobar. Se notifica al usuario auditor que se le ha creado una nueva acción para su debida revisión.
 
 - **En_Progreso**
@@ -74,27 +74,27 @@ MODELO DE MÁQUINA DE ESTADOS
 - **Nuevo a Por_Aprobar**
     - **Validación**: Los campo obligatorios diligenciados.
     - **Grupo**: Responsables
-    - **Acción disparadora/trigger**: Acción manual a través de boton.
+    - **Acción disparadora/trigger**: Acción manual a través de botón.
 
 - **Por_Aprobar a Nuevo**
     - **Validación**: No aplica.
     - **Grupo**: Auditor
-    - **Acción disparadora/trigger**: Acción manual a través de boton.
+    - **Acción disparadora/trigger**: Acción manual a través de botón.
 
 - **Por_Aprobar a En_Progreso**
     - **Validación**: No aplica.
     - **Grupo**: Auditor
-    - **Acción disparadora/trigger**: Acción manual a través de boton.
+    - **Acción disparadora/trigger**: Acción manual a través de botón.
 
 - **En_Progreso a Terminada**
     - **Validación**: No aplica.
     - **Grupo**: Auditor
-    - **Acción disparadora/trigger**: Acción manual a través de boton.
+    - **Acción disparadora/trigger**: Acción manual a través de botón.
 
 - **En_Progreso a Cancelada**
     - **Validación**: No aplica.
     - **Grupo**: Auditor
-    - **Acción disparadora/trigger**: Acción manual a través de boton.
+    - **Acción disparadora/trigger**: Acción manual a través de botón.
 
 MODELO DE SEGURIDAD Y CONTROL DE ACCESO
 ---------------------------------------

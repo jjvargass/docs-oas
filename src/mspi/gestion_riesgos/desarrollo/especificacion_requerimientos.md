@@ -17,7 +17,7 @@ A continuación se listan y describen los actores principales del sistema, estos
 
 ### ACTORES
 
-* **Registrador**: Tiene como responsabilidad registrar los riesgos a que estén a su cargo (el área a la cual pertenezca haga partes de las areas gestoras del proceso)
+* **Registrador**: Tiene como responsabilidad registrar los riesgos a que estén a su cargo (el área a la cual pertenezca haga partes de las áreas gestoras del proceso)
 
 * **Gestor**: Tiene como responsabilidad comentar y dirigir la buena caracterización del riesgo
 
@@ -58,7 +58,7 @@ A continuación se listan y describen los actores principales del sistema, estos
 		actor registrador
 
 
-		rectangle "Registro Giesgos" {
+		rectangle "Registrar Riesgos" {
 			registrador -- (Registrar Riesgos)
 		}
 

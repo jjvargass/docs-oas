@@ -31,15 +31,15 @@ DIAGRAMA DE CLASES DE ALTO NIVEL
 MODELO DE MÁQUINA DE ESTADOS
 ----------------------------
 
-### Modelo: activo_informacion.activo
+### Modelo: riesgo.riesgo
 
 #### Diagrama de Estados
 
 {uml}
 
     [*] -> Nuevo
-    Nuevo -> Aprovado
-    Aprovado -> Tratamiento
+    Nuevo -> Aprobado
+    Aprobado -> Tratamiento
     Tratamiento -> Aceptado
     Aceptado -> [*]
     Tratamiento -> Actualizado
@@ -57,7 +57,7 @@ MODELO DE MÁQUINA DE ESTADOS
     - **Acción a ejecutar en el sistema:** El campo estado cambia al valor Aprobado.
 
 - **Tratamiento**
-    - **Descripción:** Estado que indica la face de monitoreo y control del riesgo por los gestores
+    - **Descripción:** Estado que indica la fase de monitoreo y control del riesgo por los gestores
     - **Acción a ejecutar en el sistema:** El campo estado cambia al valor Publicado.
 
 - **Actualizado**
@@ -71,34 +71,34 @@ MODELO DE MÁQUINA DE ESTADOS
 #### Transiciones
 
 - **Nuevo a Aprobado**
-    - **Validación**:  No aplica.
+    - **Validación**: los campos obligatorios diligenciados.
     - **Grupo**: Registrador
-    - **Acción disparadora/trigger**: Acción Automativa del sistema, valida aprobación de jefes de áreas gestoras.
+    - **Acción disparadora/trigger**: Acción Automática del sistema, valida aprobación de jefes de áreas gestoras.
 
 - **Aprobado a Tratamiento**
     - **Validación**: No aplica.
     - **Grupo**: Registrador
-    - **Acción disparadora/trigger**: Acción manual a través de boton.
+    - **Acción disparadora/trigger**: Acción manual a través de botón.
 
 - **Tratamiento a Actualizado**
     - **Validación**: No aplica.
     - **Grupo**: Registrador
-    - **Acción disparadora/trigger**: Acción manual a través de boton.
+    - **Acción disparadora/trigger**: Acción manual a través de botón.
 
 - **Actualizado a Tratamiento**
     - **Validación**: No aplica.
     - **Grupo**: Registrador
-    - **Acción disparadora/trigger**: Acción manual a través de boton.
+    - **Acción disparadora/trigger**: Acción manual a través de botón.
 
 - **Tratamiento a Aceptado**
     - **Validación**: No aplica.
     - **Grupo**: Registrador
-    - **Acción disparadora/trigger**: Acción manual a través de boton.
+    - **Acción disparadora/trigger**: Acción manual a través de botón.
 
 - **Actualiazado a Aceptado**
     - **Validación**: No aplica.
     - **Grupo**: Registrador
-    - **Acción disparadora/trigger**: Acción manual a través de boton.
+    - **Acción disparadora/trigger**: Acción manual a través de botón.
 
 
 MODELO DE SEGURIDAD Y CONTROL DE ACCESO
