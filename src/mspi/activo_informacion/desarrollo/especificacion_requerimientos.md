@@ -126,10 +126,10 @@ En esta actividad se realiza el ingreso de los datos básicos para consolidar el
 
 - HUOP-01: Como **registrado** quiero registrar un activo de información para consolidar un inventario de activos por procesos.
 
-    - [1] **Validar Usuario**: El sistema debe validar la unidad del registrador se encentre entre las areas del procesos seleccionado.
+    - [1] **Validar Usuario**: El sistema debe validar la unidad del registrador se encentre entre las áreas del procesos seleccionado.
 
 ### Aprobar Activos
-En esta actividad el usuario gestor aprueba o rechaza el activo de información conforme a los criterios de la politica de seguridad de la ifnormación y lo establecido por el dueño de la ifnormación.
+En esta actividad el usuario gestor aprueba o rechaza el activo de información conforme a los criterios de la política de seguridad de la infnormación y lo establecido por el dueño de la infnormación.
 
 #### Historias de Usuario
 
@@ -138,7 +138,7 @@ En esta actividad el usuario gestor aprueba o rechaza el activo de información 
     - [1] **Revisión**: El sistema debe permitir cambiar el estado de  Definir a Revisión.		- [2] Notificar Cambio de **Estado**: El sistema debe notificar al registrador del cambio de estado del activo.
 
 ### Consultar, Supervisar y Generar Reportes
-Durante esta actividad se realiza el ejercicio de solo consulta a los actios de información y poder genera los reportes de inventarios.
+Durante esta actividad se realiza el ejercicio de solo consulta a los activos de información y poder genera los reportes de inventarios.
 
 #### Historias de Usuario
 

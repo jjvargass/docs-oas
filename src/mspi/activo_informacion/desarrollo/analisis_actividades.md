@@ -87,9 +87,9 @@ En esta actividad cada uno de los funcionarios de la entidad realizará el regis
 
 ### Actividad 2: Aceptar o Rechazar Activo de Información
 
-En esta actividad los funcioanrios que pertenezcan al equipo de gestión de activos realizarán la aceptación o rechazo del activo registrado.
+En esta actividad los funcionarios que pertenezcan al equipo de gestión de activos realizarán la aceptación o rechazo del activo registrado.
 
-### Actividad 3: Consulta, supervisión  del Iventario
+### Actividad 3: Consulta, supervisión  del Inventario
 
 En esta actividad los funcionarios encargados de la supervisión podrán consultar los activos aprobados y que conformarán el inventario de activos de información.
 
