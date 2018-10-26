@@ -29,7 +29,7 @@ DEFINICIÓN DE LA TRANSFORMACIÓN DE LA INFORMACIÓN (PROCESOS DEL SISTEMA)
 ----------------------
 
 Se requiere un sistema de información para identificar, registrar, clasificar y valorar los riesgos tanto de **Seguridad de la Información** como los que la entidad ha venido trabajando.
-El sistema estara estructurado acorde a lo definido en el **Modelo de Seguridad y Privacidad de la información (en adelante MSPI)** y el **Departamento de Función Pública - DAFP**
+El sistema estará estructurado acorde a lo definido en el **Modelo de Seguridad y Privacidad de la información (en adelante MSPI)** y el **Departamento de Función Pública - DAFP**
 
 ENTIDADES IDENTIFICADAS (RESPONSABLES Y TAREAS)
 -----------------------------------------------
@@ -39,8 +39,8 @@ Son las entidades que interactúan con el proceso o forman parte del mismo.
 ### Funcionarios de las Áreas (Actor)
 Cada uno de los funcionarios de las distintas áreas de la entidad. Se relaciona con el sistema mediante el registro de riesgos que tiene a su cargo o responsabilidad por procesos.
 
-### Áreas Lideres - Jefes del Área (Cliente)
-Áreas a las que le corresponde liderar la ejecución de los objetivos del procesos de la organización.
+### Áreas Líderes - Jefes del Área (Cliente)
+Áreas a las que le corresponde liderar la ejecución de los objetivos del proceso de la organización.
 Encargados de realizar las acciones asociadas a los controles establecidos para cada uno de los riesgos identificados para
 su proceso, de acuerdo con la periodicidad establecida en la política de administración del riesgo de la entidad.
 
@@ -70,15 +70,15 @@ DESCRIPCIÓN DE LAS ACTIVIDADES DEL PROCESO
 ------------------------------------------
 ### Actividad 1: Registrar Riesgo
 
-En esta actividad cada uno de los funcionarios designados por los Jefes de áreas gestoras del proceso, realizará el registro de reisgos asociado al procesos que apoyan o perteneciente.
+En esta actividad cada uno de los funcionarios designados por los Jefes de áreas gestoras del proceso, realizará el registro de riesgos asociado al proceso que apoyan o perteneciente.
 
 ### Actividad 2: Aceptar o Rechazar Riesgo por Área Gestora.
 
-Cada uno de los jefes de las areas gestoras del proceso dan su aprobación del riesgo, cuando se cumpla todas las aprobaciones, el riesgo cambiara de estado.
+Cada uno de los jefes de las áreas gestoras del proceso dan su aprobación del riesgo, cuando se cumpla todas las aprobaciones, el riesgo cambiara de estado.
 
 ### Actividad 3: Consulta, Supervisión y Generación de Reportes
 
-En esta actividad los funcioanrios encargados de la supervisión podrán consultar los riesgos, hacer sus apropiaciones, generar repotes y supervisar la total normalidad del proceso.
+En esta actividad los funcionarios encargados de la supervisión podrán consultar los riesgos, hacer sus apropiaciones, generar reportes y supervisar la total normalidad del proceso.
 
 ENTORNO Y RESTRICCIONES
 -----------------------
