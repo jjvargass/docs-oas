@@ -105,17 +105,17 @@ DIAGRAMA DE ACTIVIDADES DEL SISTEMA
 
 ## DESCRIPCIÓN DE LAS ACTIVIADES DEL SISTEMA
 
-### Registrar Activos Riesgos
-En esta actividad se realiza el ingreso de los datos básicos para consolidar el registro de riesgos conforme Guia 7 - Gestión  de Riesgo del Modelo de seguridad y privacidad de la información (MSPI) propuestos por el Mintic y la Gestion de Riesgo del Departamento de Función Publica DAFP.
+### Registrar Riesgos
+En esta actividad se realiza el ingreso de los datos básicos para consolidar el registro de riesgos conforme Guia 7 - Gestión  de Riesgo del Modelo de seguridad y privacidad de la información (MSPI) propuestos por el Mintic y la Gestión de Riesgo del Departamento de Función Pública DAFP.
 
 #### Historias de Usuario
 
 - HUOP-01: Como **registrado** quiero registrar un riesgo para consolidar la identificación y valoración al mismo.
 
-    - [1] **Validar Usuario**: El sistema debe validar la unidad del registrador se encentre entre las areas gestoras del procesos seleccionado.
+    - [1] **Validar Usuario**: El sistema debe validar la unidad del registrador se encentre entre las áreas gestoras del procesos seleccionado.
 
 ### Aprobar Riesgo
-En esta actividad los jefes de áreas gestoras aprobaran el registro de riesgo definido al proceso que pertenecen.
+En esta actividad los jefes de áreas gestoras aprobaran el registro de riesgo definido al proceso que pertenece.
 
 #### Historias de Usuario
 
@@ -130,5 +130,5 @@ Durante esta actividad se realiza el ejercicio de solo consulta a los riesgo y p
 
 #### Historias de Usuario
 
-- HUOP-03: Como **analista** quiero consultar, supervisar y generar reportes de los riesgo definidor por procesos.
+- HUOP-03: Como **analista** quiero consultar, supervisar y generar reportes de los riesgo definidos por procesos.
 - HUOP-04: Como **analista** quiero generar la matriz de riesgo de la organización definidar por procesos.
