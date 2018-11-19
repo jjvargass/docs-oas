@@ -17,6 +17,7 @@ DIAGRAMA DE CLASES DE ALTO NIVEL
 
   riesgo.riesgo "*" *-- "1" riesgo.causa
   riesgo.riesgo "*" *-- "1" riesgo.contexto
+  riesgo.contexto "*" *-- "1" riesgo.tipo_contexto
   riesgo.riesgo "*" *-- "1" riesgo.tipo_riesgo
   riesgo.riesgo "*" *-- "1" riesgo.probabilidad
   riesgo.riesgo "*" *-- "1" riesgo.impacto
