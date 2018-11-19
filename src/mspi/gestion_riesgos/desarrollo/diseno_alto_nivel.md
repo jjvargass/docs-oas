@@ -22,6 +22,7 @@ DIAGRAMA DE CLASES DE ALTO NIVEL
   riesgo.riesgo "*" *-- "1" riesgo.probabilidad
   riesgo.riesgo "*" *-- "1" riesgo.impacto
   riesgo.riesgo "1" --* "*" riesgo.evaluacion_control
+  riesgo.evaluacion_control "*" *-- "1" riesgo.control
   riesgo.riesgo "*" *-- "1" mapa_proceso.proceso
   riesgo.riesgo "*" *-- "1" activo_informacion.activo_tipo
   riesgo.riesgo "*" *-- "1" hr.department
