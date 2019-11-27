@@ -25,4 +25,5 @@ source_ext: .md
 theme: oas
 time_format: '%H:%M:%S'
 timestamp_format: '%Y-%m-%d %H:%M'
+version: 2
 web_prefix: ''
